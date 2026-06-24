@@ -1,0 +1,25 @@
+[package]
+name = "js-string-escape"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Escape a string for use as a JavaScript string literal body. A faithful port of the js-string-escape npm package. Zero deps, no_std."
+documentation = "https://docs.rs/js-string-escape"
+repository = "https://github.com/trananhtung/js-string-escape"
+homepage = "https://github.com/trananhtung/js-string-escape"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["escape", "javascript", "string", "literal", "js"]
+categories = ["text-processing", "encoding", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
